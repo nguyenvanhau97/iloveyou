@@ -445,7 +445,6 @@ $(document).ready(function(){
            $('.container').css('background','url(img3.jpg)');
            $('.form').css('display','none');
            document.getElementsByTagName('audio')[0].play();
-           document.getElementsByTagName('video')[0].play();
            document.getElementById("seconds").innerHTML = ` <img src="img2.jpg" alt="" >`;
         }else{
             alert("Bạn đã nhập sai thông tin ,bạn vào đây có mục đích gì!");
