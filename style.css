@@ -207,28 +207,7 @@ img{
         transform: translateX(22%);
     }
   }
-  @media only screen and (max-width: 991px)  {
-   
-    .container{
-        flex-direction: column;
-    }
-    .img {
-        width: 500px;
-        height: 500px;
-        bottom: 130px;
-    }
-    .img1 {
-        top: 100px;
-    }
-    .item-img {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    canvas {
-        height: 75%;
-    }
-  }
+  
 
 
   .my-form {
@@ -283,4 +262,32 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media only screen and (max-width: 991px)  {
+  .my-form {
+    padding: 1em;
+    max-width: 90%;
+  }
+  .container{
+      flex-direction: column;
+  }
+  .img {
+      width: 500px;
+      height: 500px;
+      bottom: 130px;
+  }
+  .img1 {
+      top: 100px;
+  }
+  .item-img {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+  canvas {
+      height: 75%;
+  }
+  h1 {
+    font-size: 2em;
+  }
 }
