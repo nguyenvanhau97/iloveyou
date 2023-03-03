@@ -438,7 +438,8 @@ setTimeout(function() {
 
 $(document).ready(function(){
     $('.btnLogin').click(function (){
-        if($('.form input[type=email]').val() == 'thanhhuyen' &&
+        event.preventDefault()
+        if($('.form input[type=text]').val() == 'thanhhuyen' &&
         $('.form input[type=password]').val() == 'iloveyou' ){
            $('.container').css('display','flex');
            $('.container').css('background','url(img3.jpg)');

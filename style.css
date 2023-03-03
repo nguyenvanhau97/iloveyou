@@ -272,12 +272,12 @@ img{
       flex-direction: column;
   }
   .img {
-      width: 500px;
-      height: 500px;
-      bottom: 130px;
+    width: 200px;
+    height: 200px;
+    bottom: 10px;
   }
   .img1 {
-      top: 100px;
+      top: 20px;
   }
   .item-img {
       width: 100%;
