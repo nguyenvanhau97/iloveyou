@@ -194,7 +194,7 @@ img{
   }
   audio {
     display: none;
-  }
+}
   @media only screen and (min-width: 992px)  {
     .item-img .img{
         position: relative;
@@ -286,10 +286,10 @@ img{
   .img {
     width: 200px;
     height: 200px;
-    bottom: 25px;
+    bottom: 35px;
   }
   .img1 {
-      top: 35px;
+      top: 70px;
   }
   .item-img {
       width: 100%;
