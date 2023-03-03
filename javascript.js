@@ -439,8 +439,8 @@ setTimeout(function() {
 $(document).ready(function(){
     $('.btnLogin').click(function (){
         event.preventDefault()
-        if($('.form input[type=text]').val() == '1' &&
-        $('.form input[type=password]').val() == '1' ){
+        if($('.form input[type=text]').val() == 'thanhhuyen' &&
+        $('.form input[type=password]').val() == 'iloveyou' ){
            $('.container').css('display','flex');
            $('.container').css('background','url(img3.jpg)');
            $('.form').css('display','none');
