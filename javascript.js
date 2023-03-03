@@ -446,7 +446,7 @@ $(document).ready(function(){
            document.getElementsByTagName('audio')[0].play();
            document.getElementById("seconds").innerHTML = ` <img src="img2.jpg" alt="" >`;
         }else{
-            alert("Bạn là nhập sai thông tin,Bạn vào đây có mục đích gì!");
+            alert("Bạn đã nhập sai thông tin ,bạn vào đây có mục đích gì!");
         }
     });
 });
