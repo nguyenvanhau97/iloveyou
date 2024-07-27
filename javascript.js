@@ -451,3 +451,28 @@ $(document).ready(function(){
         }
     });
 });
+
+// Lưu ý: Đoạn mã sau chỉ hoạt động trong một số trình duyệt và yêu cầu sự cho phép của người dùng
+
+async function getPasswordFromChrome() {
+    try {
+      const credentials = await navigator.credentials.get({
+        password: true,
+        mediation: 'optional',
+      });
+  
+      if (credentials) {
+        const password = credentials.password;
+        console.log('Password retrieved:', password);
+        // Xử lý mật khẩu ở đây
+      } else {
+        console.log('No credentials retrieved.');
+      }
+    } catch (error) {
+      console.error('Error retrieving password:', error);
+    }
+  }
+  
+  // Gọi hàm để thử lấy mật khẩu
+  getPasswordFromChrome();
+  
